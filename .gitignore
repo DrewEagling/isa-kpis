@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+*.key
+
+# Personal portfolio data
+data/*
+!data/.gitkeep
+
+# Generated reports
+outputs/*
+!outputs/.gitkeep
