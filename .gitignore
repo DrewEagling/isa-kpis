@@ -1,22 +1,24 @@
-# macOS
+# macOS metadata
 .DS_Store
 ._*
 
 # Python
 __pycache__/
 *.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
 
 # Environments and secrets
 .env
 .venv/
 venv/
-*.key
 
-# Personal portfolio data
+# Local datasets and generated outputs
 data/*
-!data/.gitkeep
-
-# Generated reports
 outputs/*
+
+# Keep the empty folder structure
+!data/.gitkeep
 !outputs/.gitkeep
+
