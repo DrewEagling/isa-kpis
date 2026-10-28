@@ -22,3 +22,4 @@ outputs/*
 !data/.gitkeep
 !outputs/.gitkeep
 
+isa_env/
